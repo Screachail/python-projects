@@ -1,0 +1,7 @@
+def liters_100km_to_miles_gallon(liters):
+    liter_as_gallon = 62.1371192/(liters*0.264172052)
+    return liter_as_gallon
+    
+def miles_gallon_to_liters_100km(miles):
+    kilometers_per_100km = (100*3.78541178)/(1.609344*miles)
+    return kilometers_per_100km
